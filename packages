@@ -11,7 +11,6 @@ networkmanager-openvpn
 networkmanager-pptp
 networkmanager-vpnc
 nodejs
-quagga
 rofi
 strongswan
 tmux
