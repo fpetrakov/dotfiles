@@ -99,24 +99,18 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias l="exa -l"
-alias ls="exa"
-alias p="cd Projects; exa -l"
+alias l="ls -l"
+alias p="cd Projects; ls -l"
 alias cat="batcat"
 alias bat="batcat"
 alias e="exit"
 alias v="vim"
 alias c="clear"
-alias xp="$HOME/Projects/xpush.sh"
-alias mp3="yt-dlp -x --audio-format mp3"
+alias pn="pnpm"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-# echo "killall telegram-desktop" | at 18:00
-# echo "telegram-desktop" | at 9:00
-# google-chrome
 
 # pnpm
 export PNPM_HOME="/home/fedya/.local/share/pnpm"
