@@ -19,6 +19,3 @@ nnoremap j gj
 nnoremap k gk
 nnoremap <S-u> $i<Enter><C-[><S-o><Tab>
 nnoremap <C-O> O<Space><BS><esc>O
-
-" vnoremap y y`]
-
