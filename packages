@@ -1,6 +1,5 @@
 alacritty
 bat
-exa
 htop
 keepassxc
 network-manager-applet
@@ -12,8 +11,8 @@ networkmanager-vpnc
 nodejs
 rofi
 strongswan
-tmux
 vim
 vlc
 wget
 zsh
+qbittorrent
