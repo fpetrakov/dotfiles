@@ -69,7 +69,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=( git zsh-z zsh-autosuggestions zsh-syntax-highlighting )
+plugins=( git zsh-autosuggestions zsh-syntax-highlighting )
 
 source $ZSH/oh-my-zsh.sh
 
@@ -99,12 +99,10 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias l="ls -l"
-alias p="cd Projects; ls -l"
-alias cat="batcat"
-alias bat="batcat"
+alias l="exa -al"
+alias p="cd Projects; l"
+alias cat="bat"
 alias e="exit"
-alias v="vim"
 alias c="clear"
 alias pn="pnpm"
 
