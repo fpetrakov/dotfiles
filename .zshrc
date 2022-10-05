@@ -100,7 +100,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias l="exa -al"
-alias p="cd Projects; l"
+alias p="cd ~/Projects; l"
 alias cat="bat"
 alias e="exit"
 alias c="clear"
